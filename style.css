@@ -1,5 +1,5 @@
-*{
-	background-color: #555555;
+body{
+	background-image:url(./kkkbck.jpg);
 }
 
 h1{
@@ -39,8 +39,16 @@ span{
 	width: 99%;
 }
 
+#truebody {
+	background-color: #555555;
+	width: 90%;
+	margin: auto;
+}
+
 .menu {
 	border: solid white 2px;
+	font-size: 200%;
+	font-family: Impact;
 	text-align: center;
 	background-color: #CC0000;
 	color: white;
@@ -53,4 +61,27 @@ span{
 	color: white;
 	width: 25%;
 	position: absolute:
+}
+
+.articletab {
+	display: block;
+	margin-bottom: 100px;
+}
+
+.articlehead {
+	background-color: #CC0000;
+	height: 50px;
+	width: 150px;
+	color:white;
+	border: solid black;
+	border-radius: 15px 15px;
+}
+
+.articlebody {
+	background-color: #FFFFFF;
+	height: 50px;
+	width: 75%;	
+	border: solid black 1px;
+	border-radius: 5px 5px;
+	position: fixed;
 }
