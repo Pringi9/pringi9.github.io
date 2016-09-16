@@ -1,71 +1,29 @@
 <!DOCTYPE html/>
 <html >
-	<embed src="./turbo_killer.mp3" autostart="true" loop="true" hidden="true"/>
 	<head>
-		<title>Best Website Evah !</title>
-		<style>
-		*{
-			background-color:#333333;
-		}
-		.title {
-			font-size:4em;
-			text-align:center;
-		}
-		#after {
-			text-align:right;
-			margin-top:-4em;
-			margin-right:35%;
-			color:red;
-			font-size:2em;
-		}
-		img {
-			height:30%;
-			width:14%;
-			display:inline;
-			margin-left:30%;
-		}
-		img:hover {
-			margin-left:10%;
-			height:60%;
-			width:30%;
-		}
-		</style>
+		<title>Ku Klux Klan Kebab Acceuil</title>
+		<link type="text/css" rel="stylesheet" href="style.css"/>
 	</head>
 	<body>
-		<p id="elementClignotant" class="title">JE FAIT DU WEB !!!</p>
-		<script type="text/javascript">
-			function texteClignotant()
-			{
-				var element = document.getElementById('elementClignotant');
-				var random = Math.round(Math.random()*5);
-     
-				switch (random)
-				{
-					case 0:
-					element.style.color = "red";
-					break;
-         
-					case 1:
-					element.style.color = "green";
-					break;
-         
-					case 2:
-					element.style.color = "blue";
-					break;
-         
-					case 3:
-					element.style.color = "yellow";
-					break;
-         
-					case 4:
-					element.style.color = "purple";
-					break;
-				}
-			}
- 
-			window.onload = function(){ setInterval(texteClignotant, 10); };
-		</script>
-		<a href="./lel.html"><img src="./hitler.gif"/></a>
-		<p id="after">Oh lol putain y'a Hitler !</p>
+		<img id="headbandleft" src="./KKKband.gif"/>
+		<div id="headbandcenter">
+			<table id="navtab">
+				<thead>
+					<tr>
+						<th colspan=4 class="menu">Ku Klux Klan Kebab</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="menu"><a class="menulink" href="./index.html">Acceuil</a></td>
+						<td class="menu"><a class="menulink" href="./carte.html">La carte</a></td>
+						<td class="menu"><a class="menulink" href="./info.html">Infos utiles</a></td>
+						<td class="menu"><a class="menulink" href="./contact.html">Nous contacter</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<img id="headbandright" src="./kebab.gif"/>
+		<h1>Inserez un site ici</h1>
 	</body>
 </html>
