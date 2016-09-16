@@ -15,22 +15,31 @@ a:hover {
 	height:175px;
 	width:20%;
 	display: inline-block;
+	margin-top: -1%;
 	background-color: #CC0000;
+	position: fixed;
+	z-index:10;
 }
 
 #headbandcenter {
 	height:175px;
 	width:65%;
 	display: inline-block;
-	margin-left: -1%;
+	margin-left: 20%;
+	margin-top: -1%;
 	background-color: #CC0000;
+	position: fixed;
+	z-index:10;
 }
 
 #headbandright {
 	height:175px;
 	width:15%;
 	display: inline-block;
-	margin-left: -1%;	
+	margin-left: 85%;	
+	margin-top: -1%;
+	position: fixed;	
+	z-index:10;
 }
 
 #navtab {
@@ -39,10 +48,22 @@ a:hover {
 	width: 99%;
 }
 
+#topspace {
+	height: 300px;
+	display:block;
+	border: solid black;
+	margin-bot: 300px;
+}
+
 #truebody {
 	background-color: #555555;
 	width: 90%;
-	margin: auto;
+	margin-top: 225px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 75px;
+	padding-bottom: 200px;
+	margin-bottom: 50px;
 }
 
 .menu {
@@ -69,6 +90,11 @@ a:hover {
 	margin-left: 4%;
 }
 
+.articletab:first {
+	position: absolute;
+	margin-top: 100px;
+}
+
 .articlehead {
 	background-color: #CC0000;
 	height: 50px;
@@ -84,5 +110,15 @@ a:hover {
 	width: 75%;	
 	border: solid black 1px;
 	border-radius: 5px 5px;
-	position: fixed;
+	position: absolute;
+	z-index:1;
+}
+
+.separator {
+	height: 0px;
+	width: 95%;
+	margin: auto;
+	display: block;
+	border: solid black 2px;
+	border-radius: 15px 15px;
 }
